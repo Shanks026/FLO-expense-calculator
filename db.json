@@ -53,6 +53,15 @@
       "firstName": "Maaz",
       "lastName": "Bro",
       "accountId": "m4g4a4md"
+    },
+    {
+      "id": "a4c7",
+      "username": "cindy",
+      "password": "asdf",
+      "email": "d@gmail.com",
+      "firstName": "cindi",
+      "lastName": "erla",
+      "accountId": "tsmrh706"
     }
   ],
   "balance": [
@@ -63,7 +72,7 @@
     },
     {
       "accountId": "ku2hehcc",
-      "balance": 1000,
+      "balance": 0,
       "id": "dc69"
     },
     {
@@ -140,174 +149,6 @@
       "date": "2025-02-20T13:26:08.918Z"
     },
     {
-      "id": "096d",
-      "accountId": "ku2hehcc",
-      "amount": 299,
-      "type": "Expense",
-      "category": "Subscription",
-      "date": "2025-02-27T11:11:59.081Z"
-    },
-    {
-      "id": "80db",
-      "accountId": "ku2hehcc",
-      "amount": 40,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:12:12.882Z"
-    },
-    {
-      "id": "f78f",
-      "accountId": "ku2hehcc",
-      "amount": 12,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:12:23.897Z"
-    },
-    {
-      "id": "570a",
-      "accountId": "ku2hehcc",
-      "amount": 170,
-      "type": "Expense",
-      "category": "Transfer",
-      "date": "2025-02-27T11:12:36.115Z"
-    },
-    {
-      "id": "752d",
-      "accountId": "ku2hehcc",
-      "amount": 20,
-      "type": "Expense",
-      "category": "Travel",
-      "date": "2025-02-27T11:12:48.414Z"
-    },
-    {
-      "id": "abf5",
-      "accountId": "ku2hehcc",
-      "amount": 40,
-      "type": "Expense",
-      "category": "Travel",
-      "date": "2025-02-27T11:12:58.297Z"
-    },
-    {
-      "id": "bf46",
-      "accountId": "ku2hehcc",
-      "amount": 300,
-      "type": "Expense",
-      "category": "Others",
-      "date": "2025-02-27T11:13:34.365Z"
-    },
-    {
-      "id": "e67a",
-      "accountId": "ku2hehcc",
-      "amount": 70,
-      "type": "Expense",
-      "category": "Transfer",
-      "date": "2025-02-27T11:14:13.232Z"
-    },
-    {
-      "id": "4dcd",
-      "accountId": "ku2hehcc",
-      "amount": 70,
-      "type": "Income",
-      "category": "Income",
-      "date": "2025-02-27T11:14:20.765Z"
-    },
-    {
-      "id": "acf5",
-      "accountId": "ku2hehcc",
-      "amount": 50,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:14:39.697Z"
-    },
-    {
-      "id": "3bb2",
-      "accountId": "ku2hehcc",
-      "amount": 299,
-      "type": "Expense",
-      "category": "Subscription",
-      "date": "2025-02-27T11:15:15.531Z"
-    },
-    {
-      "id": "76e0",
-      "accountId": "ku2hehcc",
-      "amount": 20,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:15:40.964Z"
-    },
-    {
-      "id": "602d",
-      "accountId": "ku2hehcc",
-      "amount": 80,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:15:55.414Z"
-    },
-    {
-      "id": "0f8f",
-      "accountId": "ku2hehcc",
-      "amount": 100,
-      "type": "Expense",
-      "category": "Transfer",
-      "date": "2025-02-27T11:16:24.781Z"
-    },
-    {
-      "id": "99ba",
-      "accountId": "ku2hehcc",
-      "amount": 25,
-      "type": "Expense",
-      "category": "Transfer",
-      "date": "2025-02-27T11:16:38.214Z"
-    },
-    {
-      "id": "7bcb",
-      "accountId": "ku2hehcc",
-      "amount": 60,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:17:01.381Z"
-    },
-    {
-      "id": "f606",
-      "accountId": "ku2hehcc",
-      "amount": 85,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:17:15.283Z"
-    },
-    {
-      "id": "e408",
-      "accountId": "ku2hehcc",
-      "amount": 30,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:17:32.514Z"
-    },
-    {
-      "id": "76a5",
-      "accountId": "ku2hehcc",
-      "amount": 20,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:17:43.797Z"
-    },
-    {
-      "id": "ce6a",
-      "accountId": "ku2hehcc",
-      "amount": 143,
-      "type": "Expense",
-      "category": "Food",
-      "date": "2025-02-27T11:17:54.097Z"
-    },
-    {
-      "id": "766c",
-      "accountId": "ku2hehcc",
-      "amount": 125,
-      "type": "Income",
-      "category": "Income",
-      "date": "2025-02-27T11:18:04.532Z"
-    },
-    {
       "id": "2c0a",
       "accountId": "udgnkim9",
       "amount": 600,
@@ -322,6 +163,62 @@
       "type": "Expense",
       "category": "Food",
       "date": "2025-02-27T11:26:48.415Z"
+    },
+    {
+      "id": "aee4",
+      "accountId": "ku2hehcc",
+      "amount": 36500,
+      "type": "Income",
+      "category": "Income",
+      "date": "2025-03-06T07:37:37.780Z"
+    },
+    {
+      "id": "e5f6",
+      "accountId": "ku2hehcc",
+      "amount": 8000,
+      "type": "Expense",
+      "category": "Others",
+      "date": "2025-03-06T07:38:26.715Z"
+    },
+    {
+      "id": "426f",
+      "accountId": "ku2hehcc",
+      "amount": 15000,
+      "type": "Expense",
+      "category": "Transfer",
+      "date": "2025-03-06T07:38:55.772Z"
+    },
+    {
+      "id": "299e",
+      "accountId": "ku2hehcc",
+      "amount": 10000,
+      "type": "Expense",
+      "category": "Transfer",
+      "date": "2025-03-06T07:40:03.843Z"
+    },
+    {
+      "id": "6e19",
+      "accountId": "ku2hehcc",
+      "amount": 150,
+      "type": "Expense",
+      "category": "Subscription",
+      "date": "2025-03-06T07:40:35.727Z"
+    },
+    {
+      "id": "5edd",
+      "accountId": "ku2hehcc",
+      "amount": 500,
+      "type": "Expense",
+      "category": "Subscription",
+      "date": "2025-03-06T07:40:58.192Z"
+    },
+    {
+      "id": "541b",
+      "accountId": "ku2hehcc",
+      "amount": 4080,
+      "type": "Expense",
+      "category": "Food",
+      "date": "2025-03-06T07:42:51.108Z"
     }
   ]
 }

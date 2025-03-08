@@ -9,6 +9,38 @@ function ExpenseCard({totalIncome, totalExpense, totalAmount}) {
 
   return (
     <View>
+      <View
+        style={{
+          // backgroundColor: colors.tertiary,
+          paddingVertical: 30,
+          paddingHorizontal: 20,
+          borderRadius: 20,
+          marginTop: 3,
+          flexDirection: 'col',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}>
+        {/* <Text style={{color: '#ffffff', fontSize: 20, fontWeight: 'bold'}}>
+          ₹{totalAmount}
+        </Text> */}
+        <Text
+          style={{
+            color: colors.secondaryText,
+            fontSize: 13,
+            fontWeight: '400',
+          }}>
+          Balance
+        </Text>
+        <Text
+          style={{
+            color: isPositiveTotal ? colors.expPositive : colors.expNegative,
+            fontSize: 28,
+            fontWeight: 'bold',
+            marginTop: 2,
+          }}>
+          {isPositiveTotal ? `+₹${totalAmount}` : `-₹${totalAmount}`}
+        </Text>
+      </View>
       <View style={styles.cardsRow}>
         <ExpenseCardItem
           title="Expenditure"
@@ -21,34 +53,6 @@ function ExpenseCard({totalIncome, totalExpense, totalAmount}) {
           amount={totalIncome}
           IconComponent={TrendDownIcon}
         />
-      </View>
-      <View
-        style={{
-          backgroundColor: colors.tertiary,
-          paddingVertical: 20,
-          paddingHorizontal: 20,
-          borderRadius: 20,
-          marginTop: 3,
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-        }}>
-        {/* <Text style={{color: '#ffffff', fontSize: 20, fontWeight: 'bold'}}>
-          ₹{totalAmount}
-        </Text> */}
-        <Text
-          style={{
-            color: isPositiveTotal ? colors.expPositive : colors.expNegative,
-            fontSize: 20,
-            fontWeight: 'bold',
-            fontWeight: 'bold',
-          }}>
-          {isPositiveTotal ? `+₹${totalAmount}` : `-₹${totalAmount}`}
-        </Text>
-
-        <Text style={{color: colors.text, fontWeight: '500', fontSize: 14}}>
-          Total Expense
-        </Text>
       </View>
     </View>
   );

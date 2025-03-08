@@ -1,6 +1,6 @@
 const colors = {
   primary: '#FEF9E1', // Soft yellow
-  secondary: '#FECF27',
+  secondary: '#A5E122',
   tertiary: '#191919',
   mutedBg: '#181818', // Dark gray
   inputBg: '#1F1E1D',

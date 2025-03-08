@@ -437,12 +437,12 @@ const Homepage = ({navigation}: {navigation: any}) => {
       </View>
 
       <View>
-        {/* <BalanceCard
+        <BalanceCard
           balance={balance}
           totalLimit={parseFloat(setBalanceValue)}
           setModalVisible={setModalVisible}
           totalAmount={totalAmount}
-        /> */}
+        />
 
         {!viewAll && (
           <ExpenseCard
@@ -457,7 +457,7 @@ const Homepage = ({navigation}: {navigation: any}) => {
 
       {/*Category Cards*/}
       <View>
-        {/* <View
+        <View
           style={{
             flexDirection: 'row',
             justifyContent: 'space-between',
@@ -478,7 +478,7 @@ const Homepage = ({navigation}: {navigation: any}) => {
               <Text style={styles.buttonText}>View All</Text>
             </TouchableOpacity>
           </View>
-        </View> */}
+        </View>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <View style={{flexDirection: 'row'}}>
             {categoryExpenses.map(({category, amount, percentage, colors}) => (
@@ -565,7 +565,7 @@ const Homepage = ({navigation}: {navigation: any}) => {
           </View>
         </ScrollView>
       </View>
-      <View style={styles.transactionsContainer}>
+      {/* <View style={styles.transactionsContainer}>
         <View
           style={{
             flexDirection: 'row',
@@ -639,7 +639,7 @@ const Homepage = ({navigation}: {navigation: any}) => {
             />
           )}
         </View>
-      </View>
+      </View> */}
 
       <TouchableOpacity
         onPress={() => navigation.navigate('AddExpense')}
